@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script src="jquery-1.12.0.js"></script>
+    <script src="scripts.js"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>A letter to you!</title>
+  </head>
+  <body>
+
+
+    <div class="container">
+      <h1>Get your receipt</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input id="address" type="text" class="form-control" >
+          </div>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input id="name" type="text" class="form-control" >
+          </div>
+
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+
+      <div id="Receipt">
+        <h1>This is your Receipt: <span class="name"></span></h1>
+        <h2>Itmes Purchased:</h2>
+        <p>Iphone.</p>
+      </div>
+      <div id="Thankyou">
+        <h1>Thanks for your purchase <span class="name"></span>!</h1>
+      </div>
+      <div id="shipping">
+        <h1>Shipping address details:</h1>
+        <p><span class="name"></span></p>
+        <p><span class="address"></span></p>
+      </div>
+
+    </div>
+  </body>
+</html>

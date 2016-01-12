@@ -1,0 +1,12 @@
+p.uppercase{
+  text-transform: uppercase;
+}
+#Receipt {
+  display: none;
+}
+#Thankyou {
+  display: none;
+}
+#shipping {
+  display: none;
+}
